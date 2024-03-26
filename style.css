@@ -1,0 +1,73 @@
+ /* body{
+ background-color: #ccc;
+ gap:1rem;
+justify-content: center;
+      */
+#book-container{
+    display:grid;
+   background-color:lightpink;
+    gap:0.5rem;
+   justify-content: center;
+   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr))  ;  
+  
+   
+}
+
+
+.container{
+    background-color:lightgreen;
+    width: 300px;
+  
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px 0px rgb(15,8,8);
+}
+p,h2{
+    padding: 10px;
+    margin:20px;
+    font-size: larger;
+    color: black;
+}
+h2{
+    color:red;
+    font-size: bolder;
+    font-size: 25px;
+}
+span{
+    color:blue;
+}
+.title{
+    color:yellow;
+   
+}
+button{
+   
+    
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color:black;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: 50px;
+    box-shadow: 3px 3px 3px ;
+    
+    
+}
+.pagination{
+    padding: 20px;
+    margin-left:450px ;
+}
+
+button:hover{
+    background-color: darkmagenta;
+    color:antiquewhite;
+}
+
+h1{
+    justify-content: center;
+    color:darkslateblue;
+    margin-left: 400px;
+}
